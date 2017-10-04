@@ -1,0 +1,77 @@
+.in-touch {
+	margin: 0;
+	position: relative;
+
+}
+// touch content
+.touch-content {
+	.touch-title {
+		margin-bottom: 20px;
+		p, span, a, li, div {
+			color: #113218;
+			text-transform: uppercase;
+		}
+	}
+	.touch-description {
+		margin-bottom: 40px;
+		p, span, a, li, div {
+			color: #6a735b;
+			text-transform: uppercase;
+		}
+	}
+}
+
+// FORM
+#contact-form {
+	max-width: 570px;
+	width: 100%;
+	border-radius: 15px;
+	background: #ffffff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+	margin: 0;
+	box-shadow: 0 0 80px rgba(48, 48, 49, .2);
+	position: relative;
+	z-index: 10;
+	bottom: calc(-6em);
+}
+.input-wrap {
+	width: calc(100% - 2em);
+	margin-left: 0;
+	margin-right: auto;
+	padding: 30px 40px;
+}
+.send-wrap {
+	width: auto;
+	z-index: 100;
+	position: relative;
+	padding: 0;
+}
+
+.btn-send {
+	@include green-gradient();
+	@include transition(all .5s);
+	display: flex;
+	width: auto;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: row;
+	border: none;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	outline: none;
+	box-shadow: none;
+	cursor: hand;
+	font-size: 30px !important;
+	color: #ffffff;
+	padding: 0 15px;
+	&:hover {
+		background: linear-gradient(135deg, #495b4c 0%, #495b4c 100%);
+	}
+}

@@ -1,0 +1,36 @@
+.geography {
+	@include green-gradient-revers();
+	padding: 30px 0 60px 0;
+	h2, .section-title {
+		margin-bottom: 0;
+	}
+}
+.geography-img {
+	margin-top: calc(-5em);
+	width: 100%;
+	height: auto;
+}
+.last-works {
+	
+}
+.text-description {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+	color: #6a735b;
+	text-align: left;
+	margin: 30px 0;
+	&.white {
+		color: #ffffff;
+		p, span {
+			color: #ffffff;
+		}
+	}
+	p, span {
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 20px;
+		color: #6a735b;
+		text-align: left;
+	}
+}

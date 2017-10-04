@@ -1,0 +1,48 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.75rem;
+	background: #fafafa;
+}
+main {
+	margin-top: calc(10em);
+}
+p, span {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6, .section-title {
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #113218;
+	&.white {
+		color: #ffffff;
+	}
+}
+h1 {
+	font-size: calc(5.5em);
+	line-height: calc(1.25em);
+}
+h2, .section-title {
+	font-size: calc(5em);
+	line-height: calc(1.25em);
+	text-align: left;
+	margin-bottom: calc(.8em);
+}
+h3 {
+	font-size: calc(4em);
+	line-height: calc(1.15em);
+}
+h4 {
+	font-size: calc(3em);
+	line-height: calc(1.05em);
+}
+h5 {
+	font-size: calc(2.5em);
+	line-height: calc(.95em);
+}
+h6 {
+	font-size: calc(2em);
+	line-height: calc(.85em);
+}

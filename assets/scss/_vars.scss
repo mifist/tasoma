@@ -1,0 +1,37 @@
+$green-dark: #2f8442;
+$green-light: #49ba6f;
+$green-black: rgba(17, 50, 24, 0.51);
+$menu-color: #6a735b;
+$white: #fff;
+$black: #000;
+
+@mixin green-gradient() {
+	background: rgb(73,186,111);
+	background: -moz-linear-gradient(-45deg, rgba(73,186,111,1) 0%, rgba(47,132,66,1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(73,186,111,1) 0%,rgba(47,132,66,1) 100%);
+	background: linear-gradient(135deg, rgba(73,186,111,1) 0%,rgba(47,132,66,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49ba6f', endColorstr='#2f8442',GradientType=1 );
+}
+
+@mixin green-gradient-revers() {
+	background: rgb(73,186,111);
+	background: -moz-linear-gradient(-45deg,  rgba(47,132,66,1) 0%, rgba(73,186,111,1) 100%);
+	background: -webkit-linear-gradient(-45deg,  rgba(47,132,66,1) 0%, rgba(73,186,111,1) 100%);
+	background: linear-gradient(135deg, rgba(47,132,66,1) 0%rgba(73,186,111,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f8442', endColorstr='#49ba6f',GradientType=1 );
+}
+
+@mixin white-gradient() {
+	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+}
+@mixin transition($transition...) {
+	-moz-transition:    $transition;
+	-o-transition:      $transition;
+	-webkit-transition: $transition;
+	transition:         $transition;
+}
+
+

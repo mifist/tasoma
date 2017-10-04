@@ -1,0 +1,32 @@
+.btn {
+	display: inline-block;
+	padding: 10px 32px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	font-weight: 900;
+	cursor: pointer;
+	@include transition(all .5s);
+}
+.btn-border {
+	background: #fff;
+	position: relative;
+	color: $green-light;
+	border: 1px solid transparent;
+	margin: 2px 0 2px 60px;
+	&:before {
+		content: '';
+		position: absolute;
+		background: #fff;
+		top: -3px;
+		bottom: -3px;
+		left: -3px;
+		right: -3px;
+		z-index: -1;
+		border-radius: 12px;
+		@include green-gradient;
+	}
+	&:hover {
+		background: transparent;
+		color: $white;
+	}
+}
