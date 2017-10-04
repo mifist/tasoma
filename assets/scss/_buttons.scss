@@ -8,7 +8,8 @@
 	@include transition(all .5s);
 }
 .btn-border {
-	background: #fff;
+	background: url("../images/body-pattern.png") 50% 50% repeat;
+	background-size: contain;
 	position: relative;
 	color: $green-light;
 	border: 1px solid transparent;
@@ -16,7 +17,6 @@
 	&:before {
 		content: '';
 		position: absolute;
-		background: #fff;
 		top: -3px;
 		bottom: -3px;
 		left: -3px;

@@ -350,17 +350,40 @@ function initMap() {
 	
 	//$('#contact-form').validator();
 	
-	$('#home-slider').slick({
+	$('#last-works-slider').slick({
 		cssEase: 'ease',
 		fade: false,
 		arrows: true,
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 500,
-		autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 3000,
 		slidesToShow: 2,
-		slidesToScroll: 1
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1170,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 575,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
 	});
 	
 })( jQuery );

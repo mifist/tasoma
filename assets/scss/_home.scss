@@ -1,3 +1,6 @@
+
+
+// GEOGRAPHY
 .geography {
 	@include green-gradient-revers();
 	padding: 30px 0 60px 0;
@@ -10,8 +13,27 @@
 	width: 100%;
 	height: auto;
 }
+
+// LAST WORKS
 .last-works {
-	
+	position: relative;
+	margin: 30px 0;
+	&:before {
+		content: '';
+		position: absolute;
+		top: initial;
+		left: initial;
+		right: 0;
+		bottom: 0;
+		background: rgba(255, 255, 255, 0.9);
+		z-index: -1;
+		display: block;
+		width: calc(60%);
+		height: calc(100% - 30px);
+	}
+	.section-title {
+		margin-bottom: 0;
+	}
 }
 .text-description {
 	font-weight: 300;
@@ -31,6 +53,78 @@
 		font-size: 14px;
 		line-height: 20px;
 		color: #6a735b;
+		text-align: left;
+	}
+}
+
+// SLIDER LAST WORK
+.slide-wrap {
+	margin: 50px 0;
+	border-radius: 15px;
+	box-shadow: 0 0 50px rgba(48, 48, 49, .2);
+	max-width: 470px;
+	width: 100%;
+}
+.slide-img {
+	overflow: hidden;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	height: 17em;
+	img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+#last-works-slider .slick-slide {
+	margin: 0 25px;
+}
+
+#last-works-slider .slider-caption {
+	background: #ffffff;
+	padding: 2em 5em 2em 7em;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	@extend .touch-content;
+	.touch-title {
+		display: block;
+		font-size: 20px;
+		position: relative;
+		&:before {
+			color: #6a735b;
+			font-size: 20px;
+			position: absolute;
+			left: -2em;
+			top: -.1em;
+		}
+	}
+	.touch-description {
+		display: block;
+		text-transform: inherit;
+		font-size: 14px;
+		margin-bottom: 30px;
+		p, span, a, li, div {
+			font-size: 14px;
+			text-transform: inherit;
+		}
+	}
+}
+
+// TEXT BLOCK WITH GREEN BG
+.text-block {
+	@include green-gradient-revers();
+	width: calc(90%);
+	float: right;
+	padding: 4em 16em 4em 2em;
+	box-shadow: 0 20px 40px rgba(48, 48, 49, 0.3);
+	margin: 6em 0;
+	
+	p, span, a, li, div, b, em, strong {
+		color: #ffffff;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 45px;
 		text-align: left;
 	}
 }
