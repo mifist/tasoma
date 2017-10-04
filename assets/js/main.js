@@ -357,7 +357,7 @@ function initMap() {
 		dots: false,
 		infinite: true,
 		speed: 500,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed: 3000,
 		slidesToShow: 2,
 		slidesToScroll: 1,
@@ -378,6 +378,44 @@ function initMap() {
 			},
 			{
 				breakpoint: 575,
+				arrows: false,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	
+	$('#gallery').slick({
+		cssEase: 'ease',
+		fade: false,
+		arrows: true,
+		dots: false,
+		infinite: true,
+		speed: 500,
+		autoplay: false,
+		autoplaySpeed: 3000,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1170,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 575,
+				arrows: false,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1

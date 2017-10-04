@@ -1,6 +1,7 @@
 <!-- START Main container -->
 <main>
 	<h1>home page</h1>
+	
 	<!-- START TEXT Block -->
 	<div class="container">
 		<div class="text-block">
@@ -11,6 +12,56 @@
 				Собственное производство в России и за рубежом, позволяет нам, минуя посредниковсклады, что существенно снижает стоимость комплектующих без потери качества.</p>
 		</div>
 	</div><!-- END TEXT Block -->
+	
+	
+	
+	<!-- START TEXT Block -->
+	<div class="container">
+		<div class="text-block">
+			<h2 class="section-title white">собственное  производство</h2>
+			<p>Компания TASOMA промо текст <br>
+				Собственное производство в России и за рубежом, позволяет нам, минуя посредников, напрямую поставлять продукцию на наши склады, что существенно снижает стоимость комплектующих без потери качества.</p>
+			<p>Работаем с торговыми  и строительными компаниями по всей России <br>
+				Собственное производство в России и за рубежом, позволяет нам, минуя посредниковсклады, что существенно снижает стоимость комплектующих без потери качества.</p>
+		</div>
+	</div><!-- END TEXT Block -->
+	
+	<!-- START Gallery -->
+	<div class="gallery">
+		<div class="container">
+			<h2 class="section-title">галлерея нашего производства</h2>
+			
+			<div id="gallery" class="slick-slider">
+				
+				<div class="slick-slide">
+					<div class="gallery-img">
+						<img src="assets/images/IMG_2492.jpg" alt="Slide 1">
+					</div>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<div class="gallery-img">
+						<img src="assets/images/IMG_2585.jpg" alt="Slide 2">
+					</div>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<div class="gallery-img">
+						<img src="assets/images/IMG_2612.jpg" alt="Slide 3">
+					</div>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<div class="gallery-img">
+						<img src="assets/images/IMG_7288.jpg" alt="Slide 4">
+					</div>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<div class="gallery-img">
+						<img src="assets/images/IMG_7299.jpg" alt="Slide 5">
+					</div>
+				</div> <!-- end slide-->
+			
+			</div><!-- END of  #home-slider-->
+		</div>
+	</div><!-- END Gallery -->
 	
 	<!-- START Geography -->
 	<div class="geography">
@@ -140,6 +191,7 @@
 			</div><!-- END of  #home-slider-->
 		</div>
 	</div><!-- END Last Works -->
-	
+
+
 </main>
 <!-- END Main container -->
