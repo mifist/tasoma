@@ -2,6 +2,11 @@
 .view-catalog {
 	position: relative;
 	margin: 60px 0;
+	.view-title {
+		width: 80%;
+		display: block;
+		margin: 0 auto 0 20%;
+	}
 }
 .view-title {
 	position: absolute;
@@ -22,7 +27,7 @@
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	position: relative;
-	min-height: calc(55em);
+	min-height: calc(50em);
 	z-index: -1;
 	opacity: .6;
 	&:before {
@@ -52,6 +57,8 @@
 	}
 	.view-title {
 		position: relative;
+		margin: 0;
+		padding-left: 0;
 	}
 	.view-img {
 		position: absolute;
@@ -64,10 +71,13 @@
 		height: 100%;
 		min-height: inherit;
 	}
+	.view-text {
+		padding-left: 0;
+	}
 }
 
 .mouse {
-	margin: 3% 0;
+	margin: 3em 0 0 0;
 }
 .catalog-description {
 	padding-left: 0;

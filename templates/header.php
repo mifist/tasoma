@@ -17,8 +17,8 @@
 			<!-- START Mobile menu -->
 			<div class="collapse" id="tasoma-navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Каталог</a></li>
+					<li><a href="index.php">Главная</a></li>
+					<li><a href="catalog-page.php">Каталог</a></li>
 					<li><a href="#">О нас</a></li>
 					<li><a href="#">Продукция</a></li>
 					<li><a href="#">Производство</a></li>

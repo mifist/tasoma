@@ -219,3 +219,34 @@
 		transform: translate3d(0, -40%, 0);
 	}
 }
+
+select.form-control {
+	display: inline-block;
+	width: 100%;
+	max-width: 120px;
+	border: none;
+	background: transparent;
+	box-shadow: none;
+	font-weight: 900;
+	opacity: .9;
+	cursor: pointer;
+	outline: none;
+	&:hover,
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+select:hover,
+select:focus {
+	outline: none;
+	box-shadow: none;
+	opacity: 1;
+}
+select option {
+	font-weight: 400;
+	color: #6a735b;
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+}

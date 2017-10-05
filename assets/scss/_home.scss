@@ -55,6 +55,38 @@
 	}
 }
 
+// FILTER RESULT
+.filter-result {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	p {
+		color: #6a735b;
+		line-height: 28px;
+	}
+	.btn-group {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.btn-link {
+		margin-right: 30px;
+	}
+}
+.result-title {
+	margin-bottom: 30px;
+	font-size: calc(3.75em);
+}
+.result-item {
+	margin-bottom: 60px;
+	img	{
+		width: 100%;
+		height: auto;
+	}
+}
+
 // GEOGRAPHY
 .geography {
 	@include green-gradient-revers();
@@ -109,6 +141,9 @@
 		line-height: 20px;
 		color: #6a735b;
 		text-align: left;
+	}
+	a {
+		color: #49ba6f;
 	}
 }
 
