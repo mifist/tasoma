@@ -36,6 +36,25 @@
 	.btn-border {
 		margin: 2px 0 2px 30px;
 	}
+
+
+	
+}
+
+@media screen and (max-width: 1199px) {
+	
+	.btn-border {
+		margin: 2px 0 2px 30px;
+	}
+	// Gallery
+
+	#gallery .slick-prev {
+		left: 0;
+	}
+	#gallery .slick-next {
+		right: 0;
+	}
+	
 }
 
 // Extra large devices (large desktops, 1170px and up)
@@ -43,5 +62,6 @@
 	.container {
 		width: 1200px;
 	}
+
 }
 

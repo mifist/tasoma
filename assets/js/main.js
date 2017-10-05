@@ -400,26 +400,8 @@ function initMap() {
 		slidesToScroll: 1,
 		responsive: [
 			{
-				breakpoint: 1170,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			},
-			{
 				breakpoint: 575,
-				arrows: false,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
+				arrows: false
 			}
 		]
 	});
