@@ -21,7 +21,22 @@
 		.nav-header {
 			display: none;
 		}
-		
+	// VIEW CATALOG
+	.view-img {
+		height: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: .3;
+	}
+	.view-title {
+		position: relative;
+	}
+	.view-text {
+		padding-left: 15px;
+	}
 }
 
 
@@ -47,13 +62,15 @@
 		margin: 2px 0 2px 30px;
 	}
 	// Gallery
-
 	#gallery .slick-prev {
 		left: 0;
 	}
 	#gallery .slick-next {
 		right: 0;
 	}
+	
+	
+	
 	
 }
 

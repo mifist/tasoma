@@ -1,6 +1,33 @@
 <!-- START Main container -->
 <main>
-	<h1>home page</h1>
+	<!-- START View Catalog -->
+	<div class="view-catalog">
+		<div class="container view-title">
+			<div class="text-description">
+				<p>Перед обращением вы можете уточнить <br>
+					наличие собранных щитов в специальном <br>
+					каталоге</p>
+			</div>
+			<h2 class="section-title">Делаем всё НКУ <br> до 0,4 кВ</h2>
+		</div>
+		<div class="container-fluid">
+			<div class="row view-row">
+				<div class="col-sm-12 col-lg-7 view-img" style="background-image: url('assets/images/IMG_7546.jpg')"></div>
+				<div class="col-sm-12 col-lg-5 view-text">
+					<ul class="catalog-description">
+						<li class="fa fa-industry" aria-hidden="true">Собственное производство</li>
+						<li class="fa fa-toggle-on" aria-hidden="true">возможность кастомизации</li>
+						<li class="fa fa-truck" aria-hidden="true">доставка по всей россии</li>
+					</ul>
+					<a class="btn btn-gradient" href="#">посмотреть каталог</a>
+					<p>* Наличие щитов в сборе ограничено</p>
+					<img src="assets/images/mouse.png" alt="Scroll down" class="mouse">
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	<!-- END View Catalog -->
 	
 	<!-- START TEXT Block -->
 	<div class="container">
@@ -14,32 +41,40 @@
 	</div><!-- END TEXT Block -->
 	
 	<!-- START View Catalog -->
-	<div class="view-catalog">
-		<div class="container view-title">
-			<div class="text-description">
-				<p>География продаж насчитывает 20 регионов <br>
-					и более 5 крупных предприятий Российской <br>
-					Федерации</p>
+	<div class="view-catalog left-catalog">
+		<div class="container row">
+			<div class="view-title col-lg-12">
+				<div class="text-description">
+					<p>Предлагаем Вам как стандартные изделия, <br>
+						так и нестандартное оборудование, <br>
+						выполненное по Вашему заданию</p>
+				</div>
+				<h2 class="section-title">Поможем сконфигурировать любое щитовое оборудование по вашему запросу</h2>
 			</div>
-			<h2 class="section-title">продаем оборудование в самые удаленные уголки страны</h2>
+			<div class="col-sm-12 col-lg-5 view-text">
+				<ul class="catalog-description">
+					<li class="fa fa-industry" aria-hidden="true">Собственное производство</li>
+					<li class="fa fa-toggle-on" aria-hidden="true">возможность кастомизации</li>
+					<li class="fa fa-truck" aria-hidden="true">доставка по всей россии</li>
+				</ul>
+				<a class="btn btn-gradient" href="#">посмотреть каталог</a>
+			</div>
 		</div>
 		<div class="container-fluid">
 			<div class="row view-row">
-				<div class="col-lg-7 view-img" style="background-image: url('assets/images/IMG_7546.jpg')"></div>
-				<div class="col-lg-5 view-text">
-					<ul class="catalog-description">
-						<li>Скидки после первого заказа</li>
-						<li>Возможность бесплатной доставки</li>
-						<li>база данных документации</li>
-						<li>выезд к инженерам</li>
-						<li>расчет нестандартных решений</li>
-					</ul>
-				</div>
+				<div class="col-sm-12 col-lg-7 view-img" style="background-image: url('assets/images/IMG_7546.jpg')"></div>
+				
 			</div>
 		</div>
 	
 	</div>
-	<!-- ENDView Catalog -->
+	<!-- END View Catalog -->
+	
+	<!-- START Filter -->
+		<div class="container">
+			
+		</div>
+	<!-- END Filter -->
 	
 	<!-- START TEXT Block -->
 	<div class="container">
@@ -88,6 +123,96 @@
 			</div><!-- END of  #home-slider-->
 		</div>
 	</div><!-- END Gallery -->
+	
+	<!-- START View Catalog -->
+	<div class="view-catalog">
+		<div class="container view-title">
+			<div class="text-description">
+				<p>География продаж насчитывает 20 регионов <br>
+					и более 5 крупных предприятий Российской <br>
+					Федерации</p>
+			</div>
+			<h2 class="section-title">продаем оборудование <br>
+				в самые удаленные  <br>
+				уголки страны</h2>
+		</div>
+		<div class="container-fluid">
+			<div class="row view-row">
+				<div class="col-sm-12 col-lg-7 view-img" style="background-image: url('assets/images/IMG_7546.jpg')"></div>
+				<div class="col-sm-12 col-lg-5 view-text">
+					<ul class="catalog-description">
+						<li class="fa fa-percent" aria-hidden="true">Скидки после первого заказа</li>
+						<li class="fa fa-truck" aria-hidden="true">Возможность бесплатной доставки</li>
+						<li class="fa fa-database" aria-hidden="true">база данных документации</li>
+						<li class="fa fa-suitcase" aria-hidden="true">выезд к инженерам</li>
+						<li class="fa fa-connectdevelop" aria-hidden="true">расчет нестандартных решений</li>
+					</ul>
+					<a class="btn btn-gradient" href="#">посмотреть каталог</a>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	<!-- END View Catalog -->
+	
+	<!-- START Our Clients -->
+	<div class="clients">
+		<div class="container">
+			<h2>Наши клиенты <br> и партнеры</h2>
+			<img src="assets/images/clients.png" alt="Более 10 строительных и торговых компаний" class="how-work">
+			<div class="work-desc">
+				<p>Более 10 строительных и торговых компаний <br>
+					центральной россии и дальнего востока стали нашими постоянными клиентами в 2017 году</p>
+			</div>
+			<div class="list-clients">
+				<div class="lict-container">
+					<div class="row">
+						<div class="col-sm-12 col-md-4 list-item">
+							<a href="#">
+								<img class="item-logo" src="assets/images/dks.jpg" alt="Client logo 1">
+							</a>
+							
+						</div>
+						<div class="col-sm-12 col-md-4 list-item">
+							<a href="#">
+								<img class="item-logo" src="assets/images/abb.png" alt="Client logo 1">
+							</a>
+							
+						</div>
+						<div class="col-sm-12 col-md-4 list-item">
+							<a href="#">
+								<img class="item-logo" src="assets/images/rittal.jpg" alt="Client logo 1">
+							</a>
+							
+						</div>
+						<div class="col-sm-12 col-md-4 list-item">
+							<a href="#">
+								<img class="item-logo" src="assets/images/schneider_electric-logo.png" alt="Client logo 1">
+							</a>
+							
+						</div>
+						<div class="col-sm-12 col-md-4 list-item">
+							<a href="#">
+								<img class="item-logo" src="assets/images/iek.png" alt="Client logo 1">
+							</a>
+							
+						</div>
+						<div class="col-sm-12 col-md-4 list-item">
+							<a href="#">
+								<img class="item-logo" src="assets/images/omron.jpg" alt="Client logo 1">
+							</a>
+							
+						</div>
+					</div>
+				</div>
+				<div class="work-desc">
+					<p>Более 10 строительных и торговых компаний <br>
+						центральной россии и дальнего востока стали нашими постоянными клиентами в 2017 году</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Our Clients -->
 	
 	<!-- START Geography -->
 	<div class="geography">

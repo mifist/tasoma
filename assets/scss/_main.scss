@@ -4,7 +4,7 @@ body {
 	font-size: 16px;
 	line-height: 1.75rem;
 	background: url("../images/body-pattern.png") 50% 50% repeat, #fafafa;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 main {
 	margin-top: calc(10em);
@@ -12,6 +12,13 @@ main {
 p, span {
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
+}
+ul, ol {
+	margin-bottom: 35px;
+	
+	li {
+		color: #6a735b;
+	}
 }
 h1, h2, h3, h4, h5, h6, .section-title {
 	font-weight: 900;
