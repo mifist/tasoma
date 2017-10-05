@@ -1,0 +1,62 @@
+@import "vars";
+
+.navbar {
+	padding: 10px 0;
+	margin-top: 20px;
+}
+.navigation {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: initial;
+	align-items: center;
+	align-content: center;
+}
+.nav-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+	width: 100%;
+}
+.navbar-brand,
+.navbar-nav>li>a {
+	text-shadow: none;
+}
+.main-logo {
+	max-width: 20em;
+	width: 100%;
+	height: auto;
+	@include transition(filter .5s);
+}
+.navbar-brand {
+	padding: 0 0 0 15px;
+	margin: 0;
+	display: block;
+	float: none;
+	height: auto;
+	&:hover {
+		.main-logo {
+			filter: grayscale(70%);
+		}
+	}
+}
+
+.navbar-nav {
+	li {
+		a {
+			color: $menu-color;
+			font-weight: 900;
+			font-size: 12px;
+			text-transform: uppercase;
+			padding: 10px;
+			@include transition(color .5s);
+			&:hover {
+				background-color: transparent;
+				color: $green-light;
+			}
+		}
+	}
+}

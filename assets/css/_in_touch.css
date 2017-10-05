@@ -1,0 +1,10 @@
+.in-touch {
+  margin: 0; }
+
+.touch-content .touch-title p, .touch-content .touch-title span, .touch-content .touch-title a, .touch-content .touch-title li, .touch-content .touch-title div {
+  color: #113218;
+  text-transform: uppercase; }
+
+.touch-content .touch-description p, .touch-content .touch-description span, .touch-content .touch-description a, .touch-content .touch-description li, .touch-content .touch-description div {
+  color: #6a735b;
+  text-transform: uppercase; }

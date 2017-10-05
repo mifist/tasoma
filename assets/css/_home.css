@@ -1,0 +1,13 @@
+.text-description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6a735b;
+  text-align: left;
+  margin: 30px 0; }
+  .text-description p, .text-description span {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6a735b;
+    text-align: left; }
