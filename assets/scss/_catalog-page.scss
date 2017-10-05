@@ -1,0 +1,62 @@
+
+#slider-information {
+	.slick-slide {
+		margin: 0 15px;
+		outline: none;
+		&:focus {
+			outline: none;
+		}
+	}
+	.slick-list {
+		margin: 0;
+		width: 100%;
+	}
+	
+}
+.filter-information {
+	.slide-title {
+		font-size: 18px;
+		font-weight: 400;
+		color: #6a735b;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.slide-wrap {
+		display: block;
+		border-radius: 0;
+		padding: 30px;
+		max-width: inherit;
+		box-shadow: none;
+		min-height: 420px;
+		text-decoration: none;
+	}
+	.slide-img {
+		height: auto;
+		border-radius: 0;
+		img {
+			border-radius: 0;
+			width: auto;
+			height: 155px;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.slider-caption {
+		margin: 25px 15px;
+	}
+	.touch-title {
+		color: #49ba6f;
+		font-size: 18px;
+		font-weight: 400;
+		margin-bottom: 3px;
+	}
+	.touch-description {
+		color: #6a735b;
+		font-size: 14px;
+		margin-bottom: 15px;
+		p, span {
+			margin-bottom: 0;
+		}
+	}
+}

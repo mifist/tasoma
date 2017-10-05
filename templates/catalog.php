@@ -32,121 +32,143 @@
 	</div>
 	<!-- END View Catalog -->
 	
-	<!-- START Last Works -->
-	<div class="last-works">
+	<!-- START Slider for Filter -->
+	<div class="filter-information">
 		<div class="container">
-			<div class="text-description">
-				<p>Предлагаем Вам как стандартные изделия, так и <br>
-					нестандартное оборудование, выполненное по<br>
-					Вашему заданию</p>
-			</div>
 			
-			<h2 class="section-title">Последние Выполненные работы</h2>
-			
-			<div id="last-works-slider" class="slick-slider">
+			<div id="slider-information" class="slick-slider">
+				
 				<div class="slick-slide">
-					<div class="slide-wrap">
+					<a href="#" class="slide-wrap">
 						<div class="slide-img">
-							<img src="assets/images/vegas.jpg" alt="Slide">
+							<img src="assets/images/image02.jpg" alt="Slide">
 						</div>
 						<div class="slider-caption">
-							<div class="touch-title fa fa-id-card-o" aria-hidden="true">
-								<p>Vegas City HalL</p>
-							</div>
-							<div class="touch-description" >
-								<p>Vegas City Hall (ТРК VEGAS Крокус Сити), г. Красногорск, Московская область.</p>
-							</div>
-							<div class="touch-title fa fa-file-text-o" aria-hidden="true">
-								<p>шкафы управления насосами</p>
-							</div>
+							<h5 class="slide-title">безопасноть  и надежность</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
 							<div class="touch-description">
-								<p>Разработка и поставка шкафов управления дренажными насосами для КНС.</p>
+								<p>Щитов в наличии</p>
 							</div>
-							<div class="touch-title fa fa-calendar-o" aria-hidden="true">
-								<p>2017</p>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
 							</div>
 						
 						</div>
-					</div>
+					</a>
 				</div> <!-- end slide-->
 				<div class="slick-slide">
-					<div class="slide-wrap">
+					<a href="#" class="slide-wrap">
 						<div class="slide-img">
-							<img src="assets/images/new-york.jpg" alt="Slide">
+							<img src="assets/images/slide02.png" alt="Slide">
 						</div>
 						<div class="slider-caption">
-							<div class="touch-title fa fa-id-card-o" aria-hidden="true">
-								<p>Vegas City HalL</p>
-							</div>
-							<div class="touch-description" >
-								<p>Vegas City Hall (ТРК VEGAS Крокус Сити), г. Красногорск, Московская область.</p>
-							</div>
-							<div class="touch-title fa fa-file-text-o" aria-hidden="true">
-								<p>шкафы управления насосами</p>
-							</div>
+							<h5 class="slide-title">управление двигателем</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
 							<div class="touch-description">
-								<p>Разработка и поставка шкафов управления дренажными насосами для КНС.</p>
+								<p>Щитов в наличии</p>
 							</div>
-							<div class="touch-title fa fa-calendar-o" aria-hidden="true">
-								<p>2017</p>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
 							</div>
 						
 						</div>
-					</div>
+					</a>
 				</div> <!-- end slide-->
 				<div class="slick-slide">
-					<div class="slide-wrap">
+					<a href="#" class="slide-wrap">
 						<div class="slide-img">
-							<img src="assets/images/vegas.jpg" alt="Slide">
+							<img src="assets/images/slide03.png" alt="Slide">
 						</div>
 						<div class="slider-caption">
-							<div class="touch-title fa fa-id-card-o" aria-hidden="true">
-								<p>Vegas City HalL</p>
-							</div>
-							<div class="touch-description" >
-								<p>Vegas City Hall (ТРК VEGAS Крокус Сити), г. Красногорск, Московская область.</p>
-							</div>
-							<div class="touch-title fa fa-file-text-o" aria-hidden="true">
-								<p>шкафы управления насосами</p>
-							</div>
+							<h5 class="slide-title">Аксессуары</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
 							<div class="touch-description">
-								<p>Разработка и поставка шкафов управления дренажными насосами для КНС.</p>
+								<p>Щитов в наличии</p>
 							</div>
-							<div class="touch-title fa fa-calendar-o" aria-hidden="true">
-								<p>2017</p>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
 							</div>
 						
 						</div>
-					</div>
+					</a>
 				</div> <!-- end slide-->
 				<div class="slick-slide">
-					<div class="slide-wrap">
+					<a href="#" class="slide-wrap">
 						<div class="slide-img">
-							<img src="assets/images/new-york.jpg" alt="Slide">
+							<img src="assets/images/slide04.png" alt="Slide">
 						</div>
 						<div class="slider-caption">
-							<div class="touch-title fa fa-id-card-o" aria-hidden="true">
-								<p>Vegas City HalL</p>
-							</div>
-							<div class="touch-description" >
-								<p>Vegas City Hall (ТРК VEGAS Крокус Сити), г. Красногорск, Московская область.</p>
-							</div>
-							<div class="touch-title fa fa-file-text-o" aria-hidden="true">
-								<p>шкафы управления насосами</p>
-							</div>
+							<h5 class="slide-title">безопасноть  и надежность</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
 							<div class="touch-description">
-								<p>Разработка и поставка шкафов управления дренажными насосами для КНС.</p>
+								<p>Щитов в наличии</p>
 							</div>
-							<div class="touch-title fa fa-calendar-o" aria-hidden="true">
-								<p>2017</p>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
 							</div>
 						
 						</div>
-					</div>
+					</a>
 				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<a href="#" class="slide-wrap">
+						<div class="slide-img">
+							<img src="assets/images/slide02.png" alt="Slide">
+						</div>
+						<div class="slider-caption">
+							<h5 class="slide-title">управление двигателем</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
+							<div class="touch-description">
+								<p>Щитов в наличии</p>
+							</div>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
+							</div>
+						
+						</div>
+					</a>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<a href="#" class="slide-wrap">
+						<div class="slide-img">
+							<img src="assets/images/slide03.png" alt="Slide">
+						</div>
+						<div class="slider-caption">
+							<h5 class="slide-title">Аксессуары</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
+							<div class="touch-description">
+								<p>Щитов в наличии</p>
+							</div>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
+							</div>
+						
+						</div>
+					</a>
+				</div> <!-- end slide-->
+				
 			</div><!-- END of  #home-slider-->
 		</div>
-	</div><!-- END Last Works -->
+	</div>
+	<!-- END Slider for Filter -->
 	
 	<!-- START Filter -->
 	<div class="container">
@@ -231,9 +253,143 @@
 	</div>
 	<!-- END Filter -->
 	
+	<!-- START Result of Filter -->
+	<div class="slider-information">
+		<div class="container">
+			
+			<div id="slider-information" class="slick-slider">
+				
+				<div class="slick-slide">
+					<a href="#" class="slide-wrap">
+						<div class="slide-img">
+							<img src="assets/images/image02.jpg" alt="Slide">
+						</div>
+						<div class="slider-caption">
+							<h5 class="slide-title">безопасноть  и надежность</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
+							<div class="touch-description">
+								<p>Щитов в наличии</p>
+							</div>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
+							</div>
+						
+						</div>
+					</a>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<a href="#" class="slide-wrap">
+						<div class="slide-img">
+							<img src="assets/images/slide02.png" alt="Slide">
+						</div>
+						<div class="slider-caption">
+							<h5 class="slide-title">управление двигателем</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
+							<div class="touch-description">
+								<p>Щитов в наличии</p>
+							</div>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
+							</div>
+						
+						</div>
+					</a>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<a href="#" class="slide-wrap">
+						<div class="slide-img">
+							<img src="assets/images/slide03.png" alt="Slide">
+						</div>
+						<div class="slider-caption">
+							<h5 class="slide-title">Аксессуары</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
+							<div class="touch-description">
+								<p>Щитов в наличии</p>
+							</div>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
+							</div>
+						
+						</div>
+					</a>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<a href="#" class="slide-wrap">
+						<div class="slide-img">
+							<img src="assets/images/slide04.png" alt="Slide">
+						</div>
+						<div class="slider-caption">
+							<h5 class="slide-title">безопасноть  и надежность</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
+							<div class="touch-description">
+								<p>Щитов в наличии</p>
+							</div>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
+							</div>
+						
+						</div>
+					</a>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<a href="#" class="slide-wrap">
+						<div class="slide-img">
+							<img src="assets/images/slide02.png" alt="Slide">
+						</div>
+						<div class="slider-caption">
+							<h5 class="slide-title">управление двигателем</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
+							<div class="touch-description">
+								<p>Щитов в наличии</p>
+							</div>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
+							</div>
+						
+						</div>
+					</a>
+				</div> <!-- end slide-->
+				<div class="slick-slide">
+					<a href="#" class="slide-wrap">
+						<div class="slide-img">
+							<img src="assets/images/slide03.png" alt="Slide">
+						</div>
+						<div class="slider-caption">
+							<h5 class="slide-title">Аксессуары</h5>
+							
+							<h6 class="touch-title" aria-hidden="true">130</h6>
+							<div class="touch-description">
+								<p>Щитов в наличии</p>
+							</div>
+							
+							<h6 class="touch-title" aria-hidden="true">238</h6>
+							<div class="touch-description">
+								<p>Заказов принятно за текущий месяц</p>
+							</div>
+						
+						</div>
+					</a>
+				</div> <!-- end slide-->
+			
+			</div><!-- END of  #home-slider-->
+		</div>
+	</div>
+	<!-- END Result of Filter -->
 	
-	
-
-
 </main>
 <!-- END Main container -->
