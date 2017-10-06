@@ -1,5 +1,7 @@
 
-
+*::-webkit-input-placeholder {
+	
+}
 .input {
 	position: relative;
 	z-index: 1;
@@ -220,6 +222,7 @@
 	}
 }
 
+/* select */
 select.form-control {
 	display: inline-block;
 	width: 100%;
@@ -249,4 +252,35 @@ select option {
 	font-size: 14px;
 	line-height: 26px;
 	text-transform: uppercase;
+}
+
+/* search */
+#search-form {
+	margin-bottom: 65px;
+}
+input[type='search'] {
+	line-height: 26px;
+	&:focus {
+		outline: none;
+	}
+}
+
+.input--search {
+	border: 2px solid #eeeeee;
+	border-radius: 5px;
+}
+.input__field--search {
+	position: relative;
+	display: block;
+	float: right;
+	border: none;
+	border-radius: 0;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 17px 90px 17px 15px;
+	width: 100%;
+	background: transparent;
+	color: #595F6E;
 }

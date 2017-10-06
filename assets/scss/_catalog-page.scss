@@ -1,4 +1,37 @@
-
+.top-catalog {
+	.catalog-description.simple {
+		li {
+			text-transform: inherit;
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 24px;
+			color: #6a735b;
+			p, span, div, b, strong, em {
+				text-transform: inherit;
+				font-weight: 300;
+				font-size: 14px;
+				line-height: 24px;
+				color: #6a735b;
+			}
+		}
+	}
+	.view-img {
+		min-height: calc(40em);
+	}
+}
+.title-search {
+	font-size: 20px;
+	line-height: 30px;
+	color: #6a735b;
+	font-weight: 400;
+}
+.text-plans {
+	color: #6a735b;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
 #slider-information {
 	.slick-slide {
 		margin: 0 15px;
@@ -13,7 +46,8 @@
 	}
 	
 }
-.filter-information {
+.filter-information,
+.filter-product {
 	.slide-title {
 		font-size: 18px;
 		font-weight: 400;
@@ -50,6 +84,9 @@
 		font-size: 18px;
 		font-weight: 400;
 		margin-bottom: 3px;
+		i, p, span, em, b, strong {
+			color: #49ba6f;
+		}
 	}
 	.touch-description {
 		color: #6a735b;
@@ -60,3 +97,4 @@
 		}
 	}
 }
+

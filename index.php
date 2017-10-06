@@ -9,7 +9,8 @@
 <!-- END Header -->
 
 <!-- START Home content -->
-	<?php include_once 'templates/catalog.php'; ?>
+	<?php //include_once 'templates/catalog.php'; ?>
+	<?php include_once 'templates/home.php'; ?>
 <!-- ENDHome content -->
 
 <!-- START Footer -->
