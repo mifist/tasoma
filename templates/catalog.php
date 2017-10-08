@@ -26,14 +26,14 @@
 					</ul>
 					<p class="text-plans">* Любое из вышеуказанных значений</p>
 					<a class="btn btn-gradient" href="#">вперед к поиску</a>
-					
+				
 				</div>
 			</div>
 		</div>
 	
 	</div>
 	<!-- END View Catalog -->
-
+	
 	<!-- START Slider for Filter -->
 	<div class="filter-information">
 		
@@ -165,7 +165,7 @@
 				</a>
 			</div> <!-- end slide-->
 		</div><!-- END of  #home-slider-->
-		
+	
 	</div>
 	<!-- END Slider for Filter -->
 	
@@ -183,111 +183,114 @@
 		<div class="row filter-navbar">
 			<nav class="navbar navbar-filter">
 				
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-filter-list" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse row" id="navbar-collapse-filter-list">
-						<div class="desktop-filter">
-							<div class="col-xs-12 col-md-3">
-								<a href="#" class="btn btn-filter">безопасность и надежность</a>
-							</div>
-							<div class="col-xs-12 col-md-3">
-								<a href="#" class="btn btn-filter">управление двигателем</a>
-							</div>
-							<div class="col-xs-12 col-md-3">
-								<a href="#" class="btn btn-filter active">Специализированные</a>
-							</div>
-							<div class="col-xs-12 col-md-3">
-								<a href="#" class="btn btn-filter">HVAC</a>
-							</div>
-							<div class="col-xs-12 col-md-3">
-								<a href="#" class="btn btn-filter">Низковольтное оборудование</a>
-							</div>
-							<div class="col-xs-12 col-md-3">
-								<a href="#" class="btn btn-filter">Аксессуары</a>
-							</div>
-							<div class="col-xs-12 col-md-3">
-								<a href="#" class="btn btn-filter">Распределение енергии</a>
-							</div>
-							<div class="col-xs-12 col-md-3">
-								<a href="#" class="btn btn-filter">Пневматика</a>
-							</div>
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-filter-list" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse row" id="navbar-collapse-filter-list">
+					<span class="close-collapse"></span>
+					<div class="desktop-filter">
+						<div class="col-xs-12 col-sm-6 col-md-3 col-md-3">
+							<a href="#" class="btn btn-filter">безопасность и надежность</a>
 						</div>
-						<ul class="nav navbar-nav row">
-							<li class="dropdown select col-xs-12 col-md-3">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-									Подкатегория <i class="fa fa-angle-down" aria-hidden="true"></i>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action <span class="item-number">(23)</span></a></li>
-									<li><a href="#">Another action  <span class="item-number">(69)</span></a></li>
-									<li><a href="#">Something else here<span class="item-number">(2)</span></a></li>
-									<li><a href="#">Separated link <span class="item-number">(11)</span></a></li>
-									<li><a href="#">One more separated link <span class="item-number">(3)</span></a></li>
-								</ul>
-							</li>
-							<li class="dropdown select col-xs-12 col-md-3">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-									выбрать величину мощности <i class="fa fa-angle-down" aria-hidden="true"></i>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a href="#">до 2 кВт <span class="item-number">(23)</span></a></li>
-									<li><a href="#">до 2 кВт  <span class="item-number">(69)</span></a></li>
-									<li><a href="#">от 2 кВт до 15 кВт<span class="item-number">(2)</span></a></li>
-									<li><a href="#">от 5 кВт до 15 кВт <span class="item-number">(11)</span></a></li>
-									<li><a href="#">от 10 кВт до 15 кВт <span class="item-number">(3)</span></a></li>
-								</ul>
-							</li>
-							<li class="dropdown select multiple col-xs-12 col-md-3">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-									Schneider Electric <i class="fa fa-angle-down" aria-hidden="true"></i>
-								</a>
-								<ul class="dropdown-menu ">
-									<li><a href="#">Action <span class="item-number">(23)</span></a></li>
-									<li><a class="selected" href="#">Another action  <span class="item-number">(69)</span></a></li>
-									<li><a href="#">Something else here<span class="item-number">(2)</span></a></li>
-									<li><a href="#">Separated link <span class="item-number">(11)</span></a></li>
-									<li><a href="#">One more separated link One more<span class="item-number">(3)</span></a></li>
-								</ul>
-							</li>
-							<li class="col-xs-12 col-md-3"><a class="btn btn-filter btn-protect" href="#">Защита от случайного касания</a></li>
-							<li class="dropdown mobile-filter">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-									<i class="fa fa-filter" aria-hidden="true"></i>
-								</a>
-								<ul class="dropdown-menu row">
-									<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
-									<li><a href="#" class="btn btn-filter active">управление двигателем</a></li>
-									<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
-									<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
-									<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
-									<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
-									<li><a href="#" class="btn btn-filter active">управление двигателем</a></li>
-									<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
-								
-								</ul>
-							</li>
-						</ul>
-					
-					</div><!-- /.navbar-collapse -->
+						<div class="col-xs-12 col-sm-6 col-md-3 col-md-3">
+							<a href="#" class="btn btn-filter">управление двигателем</a>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-md-3">
+							<a href="#" class="btn btn-filter active">Специализированные</a>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-md-3">
+							<a href="#" class="btn btn-filter">HVAC</a>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-md-3">
+							<a href="#" class="btn btn-filter">Низковольтное оборудование</a>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-md-3">
+							<a href="#" class="btn btn-filter">Аксессуары</a>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-md-3">
+							<a href="#" class="btn btn-filter">Распределение енергии</a>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-md-3">
+							<a href="#" class="btn btn-filter">Пневматика</a>
+						</div>
+					</div>
+					<ul class="nav navbar-nav row">
+						<li class="dropdown select col-xs-12 col-sm-6 col-md-3">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Подкатегория <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Action <span class="item-number">(23)</span></a></li>
+								<li><a href="#">Another action  <span class="item-number">(69)</span></a></li>
+								<li><a href="#">Something else here<span class="item-number">(2)</span></a></li>
+								<li><a href="#">Separated link <span class="item-number">(11)</span></a></li>
+								<li><a href="#">One more separated link <span class="item-number">(3)</span></a></li>
+							</ul>
+						</li>
+						<li class="dropdown select col-xs-12 col-sm-6 col-md-3">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								выбрать величину мощности <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">до 2 кВт <span class="item-number">(23)</span></a></li>
+								<li><a href="#">до 2 кВт  <span class="item-number">(69)</span></a></li>
+								<li><a href="#">от 2 кВт до 15 кВт<span class="item-number">(2)</span></a></li>
+								<li><a href="#">от 5 кВт до 15 кВт <span class="item-number">(11)</span></a></li>
+								<li><a href="#">от 10 кВт до 15 кВт <span class="item-number">(3)</span></a></li>
+							</ul>
+						</li>
+						<li class="dropdown select multiple col-xs-12 col-sm-6 col-md-3">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Schneider Electric <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu ">
+								<li><a href="#">Action <span class="item-number">(23)</span></a></li>
+								<li><a class="selected" href="#">Another action  <span class="item-number">(69)</span></a></li>
+								<li><a href="#">Something else here<span class="item-number">(2)</span></a></li>
+								<li><a href="#">Separated link <span class="item-number">(11)</span></a></li>
+								<li><a href="#">One more separated link One more<span class="item-number">(3)</span></a></li>
+							</ul>
+						</li>
+						<li class="col-xs-12 col-sm-6 col-md-3">
+							<a class="btn btn-filter btn-protect" href="#">Защита от случайного касания</a>
+						</li>
+						<li class="dropdown mobile-filter">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								<i class="fa fa-filter" aria-hidden="true"></i>
+							</a>
+							<ul class="dropdown-menu row">
+								<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
+								<li><a href="#" class="btn btn-filter active">управление двигателем</a></li>
+								<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
+								<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
+								<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
+								<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
+								<li><a href="#" class="btn btn-filter active">управление двигателем</a></li>
+								<li><a href="#" class="btn btn-filter">управление двигателем</a></li>
+							
+							</ul>
+						</li>
+					</ul>
+				
+				</div><!-- /.navbar-collapse -->
 			</nav>
 		</div>
 		
 		<div class="row filter-product">
-			<div class="col-xs-6 col-md-4 col-lg-3">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 				<a href="#" class="slide-wrap">
 					<div class="additionally">
-							<span class="addition-filter">Распределение энергии</span>
-							<span class="addition-tag in-stock">На складе</span>
-							
+						<span class="addition-filter">Распределение энергии</span>
+						<span class="addition-tag in-stock">На складе</span>
+					
 					</div>
 					<div class="slide-img">
 						<img src="assets/images/image02.jpg" alt="Slide">
@@ -317,7 +320,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-xs-6 col-md-4 col-lg-3">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 				<a href="#" class="slide-wrap">
 					<div class="additionally">
 						<span class="addition-filter">Распределение энергии</span>
@@ -351,7 +354,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-xs-6 col-md-4 col-lg-3">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 				<a href="#" class="slide-wrap">
 					<div class="additionally">
 						<span class="addition-filter">Распределение энергии</span>
@@ -385,7 +388,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-xs-6 col-md-4 col-lg-3">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 				<a href="#" class="slide-wrap">
 					<div class="additionally">
 						<span class="addition-filter">Распределение энергии</span>
@@ -419,11 +422,11 @@
 					</div>
 				</a>
 			</div>
-			
+		
 		</div>
 	</div>
 	<!-- END Filter -->
-	
-	
+
+
 </main>
 <!-- END Main container -->

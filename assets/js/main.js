@@ -363,16 +363,17 @@ function initMap() {
 		slidesToScroll: 1,
 		responsive: [
 			{
-				breakpoint: 1170,
+				breakpoint: 1200,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 1
 				}
 			},
 			{
-				breakpoint: 768,
+				breakpoint: 769,
+				arrows: false,
 				settings: {
-					slidesToShow: 1,
+					slidesToShow: 2,
 					slidesToScroll: 1
 				}
 			},
@@ -401,9 +402,9 @@ function initMap() {
 		responsive: [
 			
 			{
-				breakpoint: 768,
+				breakpoint: 770,
 				settings: {
-					slidesToShow: 4,
+					slidesToShow: 2,
 					slidesToScroll: 1
 				}
 			},
@@ -431,10 +432,20 @@ function initMap() {
 		slidesToScroll: 1,
 		responsive: [
 			{
-				breakpoint: 575,
-				arrows: false
+				breakpoint: 769,
+				arrows: false,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
 			}
 		]
 	});
+	
+
+	$('.close-collapse').click( function() {
+		$('.collapse').removeClass('in');
+	});
+	
 	
 })( jQuery );

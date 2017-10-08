@@ -2,7 +2,7 @@
 	display: inline-block;
 	padding: 10px 32px;
 	text-transform: uppercase;
-	border-radius: 10px;
+	border-radius: 5px;
 	font-weight: 900;
 	@include transition(all .5s);
 	cursor: hand;
@@ -21,7 +21,10 @@
 	text-transform: uppercase;
 	font-size: 12px;
 	color: #49ba6f;
-	@include transition(all .3s)
+	@include transition(all .3s);
+	&:hover {
+		color: $green-light;
+	}
 }
 
 .btn-search {
@@ -70,7 +73,7 @@
 	background-size: contain;
 	position: relative;
 	color: $green-light;
-	border: 1px solid transparent;
+	border: none;
 	margin: 2px 0 2px 60px;
 	font-size: 12px;
 	&:before {
@@ -81,7 +84,7 @@
 		left: -3px;
 		right: -3px;
 		z-index: -1;
-		border-radius: 12px;
+		border-radius: 8px;
 		@include green-gradient();
 	}
 	&:hover {
@@ -129,7 +132,7 @@
 		left: -3px;
 		right: -3px;
 		z-index: -1;
-		border-radius: 12px;
+		border-radius: 8px;
 		@include green-gradient();
 		opacity: 0;
 	}
@@ -163,7 +166,7 @@
 		left: -3px;
 		right: -3px;
 		z-index: -1;
-		border-radius: 12px;
+		border-radius: 8px;
 		@include green-gradient();
 		opacity: 1;
 	}
@@ -193,4 +196,25 @@
 	max-width: 270px;
 	width: 100%;
 	min-height: 70px;
+}
+.btn-select {
+	display: inline-block;
+	width: 100%;
+	border: none;
+	background: transparent;
+	box-shadow: none;
+	font-weight: 900;
+	opacity: .9;
+	cursor: pointer;
+	outline: none;
+	&:hover,
+	&:focus {
+		outline: none;
+		box-shadow: none;
+		opacity: 1;
+	}
+	.fa {
+		font-size: 16px;
+		margin-left: 5px;
+	}
 }

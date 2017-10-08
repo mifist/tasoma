@@ -64,12 +64,12 @@
 					<a class="btn btn-gradient" href="#">посмотреть каталог</a>
 				</div>
 			</div>
-			
+		
 		</div>
 		<div class="container-fluid">
 			<div class="row view-row">
 				<div class="col-xs-12 col-lg-7 view-img" style="background-image: url('assets/images/IMG_7546.jpg')"></div>
-				
+			
 			</div>
 		</div>
 	
@@ -79,38 +79,38 @@
 	<!-- START Filter -->
 	<div class="container">
 		<div class="row filter-button">
-			<div class="col-xs-6 col-md-3 filter-item">
+			<div class="col-xs-12 col-sm-6 col-md-3 filter-item">
 				<a href="#" class="btn btn-filter">управление двигателем</a>
 			</div>
-			<div class="col-xs-6 col-md-3 filter-item">
+			<div class="col-xs-12 col-sm-6 col-md-3 filter-item">
 				<a href="#" class="btn btn-filter">управление двигателем</a>
 			</div>
-			<div class="col-xs-6 col-md-3 filter-item">
+			<div class="col-xs-12 col-sm-6 col-md-3 filter-item">
 				<a href="#" class="btn btn-filter active">управление двигателем</a>
 			</div>
-			<div class="col-xs-6 col-md-3 filter-item">
+			<div class="col-xs-12 col-sm-6 col-md-3 filter-item">
 				<a href="#" class="btn btn-filter">управление двигателем</a>
 			</div>
-			<div class="col-xs-6 col-md-3 filter-item">
+			<div class="col-xs-12 col-sm-6 col-md-3 filter-item">
 				<a href="#" class="btn btn-filter">управление двигателем</a>
 			</div>
-			<div class="col-xs-6 col-md-3 filter-item">
+			<div class="col-xs-12 col-sm-6 col-md-3 filter-item">
 				<a href="#" class="btn btn-filter">управление двигателем</a>
 			</div>
-			<div class="col-xs-6 col-md-3 filter-item">
+			<div class="col-xs-12 col-sm-6 col-md-3 filter-item">
 				<a href="#" class="btn btn-filter">управление двигателем</a>
 			</div>
-			<div class="col-xs-6 col-md-3 filter-item">
+			<div class="col-xs-12 col-sm-6 col-md-3 filter-item">
 				<a href="#" class="btn btn-filter">управление двигателем</a>
 			</div>
 		</div>
 		<div class="row filter-result">
 			<div class="col-xs-12 col-md-10 result-item">
 				<div class="row">
-					<div class="col-lg-5">
+					<div class="col-xs-12 col-sm-12 col-md-5">
 						<img src="assets/images/image01.jpg" alt="Filter result 01">
 					</div>
-					<div class="col-lg-6">
+					<div class="col-xs-12 col-sm-12 col-md-6">
 						<div class="text-description">
 							<p>01 - ОЩВ, ЯРП, ПР, РУСП</p>
 						</div>
@@ -120,7 +120,7 @@
 						<div class="btn-group">
 							<a class="btn-link" href="#">посмотреть все</a>
 							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle select" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								<button class="btn btn-select" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 									Виды <i class="fa fa-angle-down" aria-hidden="true"></i>
 								</button>
 								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -136,10 +136,10 @@
 			</div>
 			<div class="col-xs-12 col-md-10 result-item">
 				<div class="row">
-					<div class="col-lg-5">
+					<div class="col-xs-12 col-sm-12 col-md-5">
 						<img src="assets/images/image02.jpg" alt="Filter result 02">
 					</div>
-					<div class="col-lg-6">
+					<div class="col-xs-12 col-sm-12 col-md-6">
 						<div class="text-description">
 							<p>01 - ОЩВ, ЯРП, ПР, РУСП</p>
 						</div>
@@ -148,13 +148,17 @@
 						<p>Специалисты щитового производства, имея огромный опыт, рассчитывают в самые короткие сроки стоимость щитов и смогут предложить замену исходя из бюджета проекта.</p>
 						<div class="btn-group">
 							<a class="btn-link" href="#">посмотреть все</a>
-							<select name="kinds" id="kinds" class="form-control select">
-								<option>Виды</option>
-								<option value="01">01 -  Я5000</option>
-								<option value="02">02 -  Б5000</option>
-								<option value="03">03 -  ШУ5000</option>
-								<option value="03">04 -  РУСМ5000</option>
-							</select>
+							<div class="dropdown">
+								<button class="btn btn-select" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									Виды <i class="fa fa-angle-down" aria-hidden="true"></i>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+									<li><a href="#">01 -  Я5000</a></li>
+									<li><a href="#">02 -  Б5000</a></li>
+									<li><a href="#">03 -  ШУ5000</a></li>
+									<li><a href="#">04 -  РУСМ5000</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -257,41 +261,41 @@
 			<div class="list-clients">
 				<div class="lict-container">
 					<div class="row">
-						<div class="col-xs-6 col-md-4 list-item">
+						<div class="col-xs-12 col-sm-6 col-md-4 list-item">
 							<a href="#">
 								<img class="item-logo" src="assets/images/dks.jpg" alt="Client logo 1">
 							</a>
-							
+						
 						</div>
-						<div class="col-xs-6 col-md-4 list-item">
+						<div class="col-xs-12 col-sm-6 col-md-4 list-item">
 							<a href="#">
 								<img class="item-logo" src="assets/images/abb.png" alt="Client logo 1">
 							</a>
-							
+						
 						</div>
-						<div class="col-xs-6 col-md-4 list-item">
+						<div class="col-xs-12 col-sm-6 col-md-4 list-item">
 							<a href="#">
 								<img class="item-logo" src="assets/images/rittal.jpg" alt="Client logo 1">
 							</a>
-							
+						
 						</div>
-						<div class="col-xs-6 col-md-4 list-item">
+						<div class="col-xs-12 col-sm-6 col-md-4 list-item">
 							<a href="#">
 								<img class="item-logo" src="assets/images/schneider_electric-logo.png" alt="Client logo 1">
 							</a>
-							
+						
 						</div>
-						<div class="col-xs-6 col-md-4 list-item">
+						<div class="col-xs-12 col-sm-6 col-md-4 list-item">
 							<a href="#">
 								<img class="item-logo" src="assets/images/iek.png" alt="Client logo 1">
 							</a>
-							
+						
 						</div>
-						<div class="col-xs-6 col-md-4 list-item">
+						<div class="col-xs-12 col-sm-6 col-md-4 list-item">
 							<a href="#">
 								<img class="item-logo" src="assets/images/omron.jpg" alt="Client logo 1">
 							</a>
-							
+						
 						</div>
 					</div>
 				</div>

@@ -65,6 +65,7 @@
 	padding: 0;
 	li {
 		list-style: none;
+		margin-bottom: 10px;
 		a {
 			color: #113218;
 			i, span {
@@ -77,3 +78,46 @@
 		}
 	}
 }
+.close-collapse {
+	width: 15px;
+	height: 15px;
+	background: url("../images/close-dark.png") 50% 50% no-repeat;
+	position: absolute;
+	top: 4vh;
+	right: 8vw;
+	left: initial;
+	bottom: inherit;
+	z-index: 50;
+	cursor: pointer;
+}
+.collapse,
+.collapsing {
+	@include transition(left .5s);
+}
+.collapse.in {
+	display: block;
+	background: #f9f9f9;
+	position: fixed;
+	z-index: 100;
+	padding: 20px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: calc(90vw);
+	height: calc(100vh);
+	overflow-x: hidden;
+	.navbar-nav {
+		margin: 0;
+		padding-left: 3vw;
+		padding-top: 4vh;
+		li {
+			a {
+				font-size: calc(12px + 2vw);
+				color: #6a735b;
+				line-height: calc(24px + 2vw);
+				font-weight: 900;
+			}
+		}
+	}
+}
+
