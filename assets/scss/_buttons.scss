@@ -4,9 +4,67 @@
 	text-transform: uppercase;
 	border-radius: 10px;
 	font-weight: 900;
-	cursor: pointer;
 	@include transition(all .5s);
+	cursor: hand;
+	font-size: 16px;
+	white-space: normal;
+	&:before,
+	&:after {
+		content: '';
+		@include transition(all .3s);
+	}
 }
+.btn-link {
+	display: inline-block;
+	cursor: pointer;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #49ba6f;
+	@include transition(all .3s)
+}
+
+.btn-search {
+	background: transparent;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	color: #fff;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	font-size: 30px;
+	line-height: 24px !important;
+	padding: 17px 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin: 0;
+	background-size: contain;
+	@include transition(all .5s);
+	&:before {
+		font-size: 30px !important;
+		line-height: 24px !important;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		top: -2px;
+		bottom: -2px;
+		left: -2px;
+		right: -2px;
+		z-index: -1;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		@include green-gradient();
+		opacity: 1;
+	}
+	&:hover {
+		background: url("../images/body-pattern.png") 50% 50% repeat;
+		color: $green-light;
+	}
+}
+
 .btn-border {
 	background: url("../images/body-pattern.png") 50% 50% repeat;
 	background-size: contain;
@@ -14,6 +72,7 @@
 	color: $green-light;
 	border: 1px solid transparent;
 	margin: 2px 0 2px 60px;
+	font-size: 12px;
 	&:before {
 		content: '';
 		position: absolute;
@@ -23,10 +82,115 @@
 		right: -3px;
 		z-index: -1;
 		border-radius: 12px;
-		@include green-gradient;
+		@include green-gradient();
 	}
 	&:hover {
 		background: transparent;
 		color: $white;
 	}
+}
+
+.btn-gradient {
+	@include green-gradient();
+	@include transition(all .5s);
+	padding: 15px 32px;
+	color: #ffffff;
+	opacity: 1;
+	box-shadow: 0 20px 40px rgba(48, 48, 49, 0.3);
+	margin-bottom: 40px;
+	&:hover {
+		opacity: .75;
+		color: #ffffff;
+	}
+}
+.btn-filter {
+	@extend .btn-border;
+	@include transition();
+	font-weight: 300;
+	color: #6a735b;
+	font-size: 18px;
+	margin-left: 0;
+	margin-bottom: 25px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 35px;
+	height: auto;
+	min-height: 82px;
+	&:before {
+		background: #eeeeee;
+		opacity: 1;
+	}
+	&:after {
+		position: absolute;
+		top: -3px;
+		bottom: -3px;
+		left: -3px;
+		right: -3px;
+		z-index: -1;
+		border-radius: 12px;
+		@include green-gradient();
+		opacity: 0;
+	}
+	&:hover {
+		background: transparent;
+		color: $white;
+		&:before {
+			opacity: 0;
+		}
+		&:after {
+			opacity: 1;
+		}
+	}
+	
+}
+.btn-filter.active {
+	@extend .btn-border;
+	box-shadow: none;
+	font-weight: 300;
+	color: #49ba6f;
+	font-size: 18px;
+	margin-left: 0;
+	width: 100%;
+	display: flex;
+	padding: 15px 35px;
+	height: auto;
+	&:before {
+		position: absolute;
+		top: -3px;
+		bottom: -3px;
+		left: -3px;
+		right: -3px;
+		z-index: -1;
+		border-radius: 12px;
+		@include green-gradient();
+		opacity: 1;
+	}
+	&:after {
+		position: absolute;
+		top: -15px;
+		right: -15px;
+		z-index: 2;
+		left: initial;
+		bottom: initial;
+		height: 30px;
+		display: block;
+		width: 30px;
+		opacity: 0;
+		background: url("../images/close.png") 50% 50% no-repeat;
+	}
+	&:hover {
+		color: #49ba6f;
+		background: url("../images/body-pattern.png") 50% 50% repeat;
+		&:after {
+			opacity: 1;
+		
+		}
+	}
+}
+.btn-protect {
+	max-width: 270px;
+	width: 100%;
+	min-height: 70px;
 }

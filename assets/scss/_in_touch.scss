@@ -22,6 +22,12 @@
 			color: #6a735b;
 			text-transform: uppercase;
 		}
+		a {
+			text-decoration: none;
+			&:hover {
+				color: $green-light;
+			}
+		}
 	}
 }
 

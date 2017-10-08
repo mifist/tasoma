@@ -21,7 +21,53 @@
 		.nav-header {
 			display: none;
 		}
+	// VIEW CATALOG
+	.view-img {
+		height: auto;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: .3;
+	}
+	.view-title {
+		position: relative;
+	}
+	.view-text {
+		padding-left: 15px;
+	}
+	
+	//FILTER
+	.navbar-filter {
+		.navbar-nav {
+			
+		}
+	
+	}
+	.desktop-filter {
+		display: none ;
+	}
+	.mobile-filter {
+		display: block !important;
+	}
+	
+	// HEADER
+	.container-fluid>.navbar-collapse,
+	.container-fluid>.navbar-header,
+	.container>.navbar-collapse,
+	.container>.navbar-header {
+		width: 100%;
+		flex-direction: row-reverse;
+		display: flex;
+	}
+	.navbar-header {
 		
+	}
+	.collapse.in {
+		
+	}
+	
 }
 
 
@@ -32,10 +78,57 @@
 }
 
 // Medium devices (tablets, 768px and up)
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 	.btn-border {
 		margin: 2px 0 2px 30px;
 	}
+	// BUTTON
+	.btn {
+		padding: 10px;
+		font-size: 10px;
+		margin-left: 15px;
+	}
+
+	
+}
+
+@media screen and (max-width: 1199px) {
+	.main-logo {
+		max-width: 135px;
+		width: 100%;
+	}
+	.navbar {
+		margin-top: 0;
+	}
+	
+	.btn-border {
+		margin: 2px 0 2px 30px;
+	}
+	// Gallery
+	#gallery .slick-prev {
+		left: 0;
+	}
+	#gallery .slick-next {
+		right: 0;
+	}
+	.navbar-nav {
+		li {
+			a {
+				font-weight: 600;
+				padding: 10px 5px;
+			}
+		}
+	}
+	
+	
+	// BUTTON
+	.btn-border,
+	.btn-filter,
+	.btn-filter.active {
+		margin: 0 0 0 30px;
+	}
+	
+	
 }
 
 // Extra large devices (large desktops, 1170px and up)
@@ -43,5 +136,6 @@
 	.container {
 		width: 1200px;
 	}
+
 }
 

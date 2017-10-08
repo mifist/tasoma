@@ -13,12 +13,17 @@
 				<a class="navbar-brand" href="#" title="Tasoma">
 					<img class="main-logo" alt="Tasoma" src="assets/images/logo.png">
 				</a>
+				<ul class="header-contacts">
+					<li><a href="mailto:info@tasoma.ru"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@tasoma.ru</a></li>
+					<li><a href="tel: 8 (945) 555-66-77"<i class="fa fa-phone" aria-hidden="true"></i> 8 (945) 555-66-77</a></li>
+				
+				</ul>
 			</div>
 			<!-- START Mobile menu -->
 			<div class="collapse" id="tasoma-navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Каталог</a></li>
+					<li><a href="index.php">Главная</a></li>
+					<li><a href="catalog-page.php">Каталог</a></li>
 					<li><a href="#">О нас</a></li>
 					<li><a href="#">Продукция</a></li>
 					<li><a href="#">Производство</a></li>
