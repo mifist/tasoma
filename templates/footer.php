@@ -1,11 +1,14 @@
 
+
+
+
 <!-- START Block IN TOUCH -->
 <div class="in-touch">
 	<!-- START In touch content -->
 	<div class="container">
 		<h2 class="section-title">Всегда на связи</h2>
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
 				<div class="row">
 					<div class="touch-content">
 						<div class="touch-title">
@@ -25,7 +28,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
 				<!-- START Form -->
 				<form id="contact-form" class="row" role="form" data-toggle="validator">
 					<div class="col-sm-12 input-wrap">
@@ -89,7 +92,7 @@
 <!-- END Block IN TOUCH -->
 
 <!-- START Footer -->
-	<footer class="container">
+<footer class="container">
 	<div class="footer-wrap">
 		<ul class="footer-links">
 			<li><a href="#">Каталог</a></li>
@@ -113,15 +116,16 @@
 		<p>©  2017 </p>
 	</div>
 </footer>
+
 <!-- END Footer -->
 
-s
 <!-- Latest compiled and minified JavaScript -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpwBZhSV9AOOoGQPRnR8pjjg2luv_3O00&callback=initMap"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpwBZhSV9AOOoGQPRnR8pjjg2luv_3O00&callback=initMap" async defer></script>
 <script type="text/javascript" src="https://use.fontawesome.com/ae7c834c9a.js"></script>
 <script type="text/javascript" src="assets/js/slick.min.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
+
 
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 

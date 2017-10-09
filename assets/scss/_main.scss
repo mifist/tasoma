@@ -63,3 +63,23 @@ h6 {
 	font-size: calc(2.5em);
 	line-height: calc(.85em);
 }
+body::-webkit-scrollbar-track,
+.collapse.in::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+body::-webkit-scrollbar,
+.collapse.in::-webkit-scrollbar {
+	width: 6px;
+	background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb,
+.collapse.in::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color: $green-light;
+	font-family: $green-light;
+}

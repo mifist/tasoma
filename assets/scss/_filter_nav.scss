@@ -56,8 +56,8 @@
 		padding-right: 35px;
 		text-transform: uppercase;
 		border-bottom: 2px solid #eee;
-		border-color: #eee !important;
-		max-height: 70px;
+		
+		max-height: 74px;
 		&:hover {
 			background: transparent;
 			color: $green-light !important;
@@ -67,11 +67,12 @@
 		& > a {
 			color: $green-light !important;
 			background: transparent;
+			@include transition(all .5s)
 		}
 	}
 	.dropdown-menu {
 		padding: 0;
-		top: 70px;
+		top: 75px;
 		left: 15px;
 		border: none;
 		min-width: 230px;
@@ -115,6 +116,12 @@
 		}
 	}
 }
+.btn-select + .dropdown-menu {
+	top: 45px;
+	padding: 15px 5px;
+	box-shadow: 0 0 40px rgba(0,0,0,.2);
+}
+
 .item-number {
 	color: rgba(106, 115, 91, 0.5);
 	font-size: 18px;

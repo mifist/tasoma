@@ -109,6 +109,123 @@
 		}
 	}
 })();
+
+( function($) {
+	'use strict';
+	//scroll to top and bottom
+   $('a[href="#moveToTop"]').click(function() {
+		 $("html, body").animate({ scrollTop: 0 }, 800 );
+		 return false;
+	 });
+	
+	//$('#contact-form').validator();
+	
+	$('#last-works-slider').slick({
+		cssEase: 'ease',
+		fade: false,
+		arrows: true,
+		dots: false,
+		infinite: true,
+		speed: 500,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 769,
+				arrows: false,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 575,
+				arrows: false,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	
+	$('#slider-information').slick({
+		cssEase: 'ease',
+		fade: false,
+		arrows: false,
+		dots: false,
+		infinite: true,
+		speed: 500,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		responsive: [
+			
+			{
+				breakpoint: 770,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 575,
+				arrows: false,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	
+	$('#gallery').slick({
+		cssEase: 'ease',
+		fade: false,
+		arrows: true,
+		dots: false,
+		infinite: true,
+		speed: 500,
+		autoplay: false,
+		autoplaySpeed: 3000,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 769,
+				arrows: false,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	
+
+	$('.close-collapse').click( function() {
+		$('.collapse').removeClass('in');
+	});
+	
+	$('.overlay').click( function() {
+		$('.collapse').removeClass('in');
+	});
+	
+	
+})( jQuery );
+
+
+
 function initMap() {
 	var uluru = {lat: 55.756873, lng: 37.629216};
 	var map = new google.maps.Map(document.getElementById('map'), {
@@ -340,101 +457,3 @@ function initMap() {
 		map: map
 	});
 }
-( function($) {
-	'use strict';
-	//scroll to top and bottom
-   $('a[href="#moveToTop"]').click(function() {
-		 $("html, body").animate({ scrollTop: 0 }, 800 );
-		 return false;
-	 });
-	
-	//$('#contact-form').validator();
-	
-	$('#last-works-slider').slick({
-		cssEase: 'ease',
-		fade: false,
-		arrows: true,
-		dots: false,
-		infinite: true,
-		speed: 500,
-		autoplay: true,
-		autoplaySpeed: 3000,
-		slidesToShow: 2,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 1170,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 575,
-				arrows: false,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-		]
-	});
-	
-	$('#slider-information').slick({
-		cssEase: 'ease',
-		fade: false,
-		arrows: false,
-		dots: false,
-		infinite: true,
-		speed: 500,
-		autoplay: true,
-		autoplaySpeed: 3000,
-		slidesToShow: 4,
-		slidesToScroll: 1,
-		responsive: [
-			
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 4,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 575,
-				arrows: false,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-		]
-	});
-	
-	$('#gallery').slick({
-		cssEase: 'ease',
-		fade: false,
-		arrows: true,
-		dots: false,
-		infinite: true,
-		speed: 500,
-		autoplay: false,
-		autoplaySpeed: 3000,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 575,
-				arrows: false
-			}
-		]
-	});
-	
-})( jQuery );
